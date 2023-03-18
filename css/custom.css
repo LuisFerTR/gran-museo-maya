@@ -1,0 +1,33 @@
+.social-media .btn, .social-media .btn:hover, .social-media .btn:first-child:active {
+
+    color: #fff;
+
+}
+
+.btn.btn-facebook {
+    background-color: #3b5998!important; 
+}
+
+.btn.btn-twitter {
+    background-color: #55acee!important; 
+}
+
+.btn.btn-instagram {
+    background-color: #ac2bac!important; 
+}
+
+.btn.btn-youtube {
+    background-color: #ed302f!important; 
+}
+
+.title {
+    /*color: #53A88B;*/
+    font-weight: bold;
+}
+
+p {
+    /* Reducir espacio entre líneas */
+    padding : 0;
+    margin : 0;
+    line-height : 0.5em;
+}
