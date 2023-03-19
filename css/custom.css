@@ -21,7 +21,6 @@
 }
 
 .title {
-    /*color: #53A88B;*/
     font-weight: bold;
 }
 
@@ -39,16 +38,30 @@
     background-color: #DE993E;
 }
 
+.card-container {
+    /*
+        Paleta de colores
+        Naranja claro: #DE993E
+        Arena: #E9D68C
+        Azul: #07A4AF
+        Turquesa: #53A88B
+        Verde: #45893F
+
+        Blanco: #fff
+    */
+    background-color: #E9D68C;
+}
+
 .navbar-custom-text {
     font-weight: bold!important;
     color: #fff!important;
 }
 
-p {
+.text-header {
     /* Reducir espacio entre líneas */
     padding : 0;
     margin : 0;
-    line-height : 0.5em;
+    line-height : 1.5em;
 }
 
 /*
