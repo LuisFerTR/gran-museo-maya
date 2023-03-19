@@ -25,9 +25,39 @@
     font-weight: bold;
 }
 
+.navbar-custom {
+    /*
+        Paleta de colores
+        Naranja claro: #DE993E
+        Arena: #E9D68C
+        Azul: #07A4AF
+        Turquesa: #53A88B
+        Verde: #45893F
+
+        Blanco: #fff
+    */
+    background-color: #DE993E;
+}
+
+.navbar-custom-text {
+    font-weight: bold!important;
+    color: #fff!important;
+}
+
 p {
     /* Reducir espacio entre líneas */
     padding : 0;
     margin : 0;
     line-height : 0.5em;
 }
+
+/*
+Paleta de colores
+Naranja claro: #DE993E
+Arena: #E9D68C
+Azul: #07A4AF
+Turquesa: #53A88B
+Verde: #45893F
+
+Blanco: #fff
+*/
