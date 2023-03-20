@@ -64,6 +64,10 @@
     line-height : 1.5em;
 }
 
+.text-card-title {
+    color: #DE993E!important;
+}
+
 .text-footer {
     /* Reducir espacio entre líneas */
     padding : 0;
