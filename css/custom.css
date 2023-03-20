@@ -64,6 +64,11 @@
     line-height : 1.5em;
 }
 
+.text-footer {
+    font-family:sans-serif;
+    color: #656565;
+}
+
 /*
 Paleta de colores
 Naranja claro: #DE993E
