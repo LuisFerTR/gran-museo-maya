@@ -52,6 +52,21 @@
     background-color: #E9D68C;
 }
 
+.card-container-section {
+    /*
+        Paleta de colores
+        Naranja claro: #DE993E
+        Arena: #E9D68C
+        Azul: #07A4AF
+        Turquesa: #53A88B
+        Verde: #45893F
+
+        Blanco: #fff
+    */
+    background-color: #53A88B;
+    color: #3d3d3d;
+}
+
 .navbar-custom-text {
     font-weight: bold!important;
     color: #fff!important;
