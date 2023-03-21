@@ -20,9 +20,16 @@
             integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
             crossorigin="anonymous">
 
+        <!-- Importar JS bootstrap -->
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+            crossorigin="anonymous"></script>
+
         <!-- Importar Font Awesome Icons -->
         <script src="https://kit.fontawesome.com/ad787cab48.js"
             crossorigin="anonymous"></script>
+
     </head>
     <body>
         <div class="text-center">
@@ -233,8 +240,8 @@
                 museo" class="img-fluid w-100">
 
             <!-- Secciones (cartas)-->
-            <div class="container-fluid card-container-section py-4">
-                <div class="card mx-2">
+            <div class="container-fluid card-container-section p-4">
+                <div class="card m-4">
                     <div class="card-header">
                         <ul class="nav nav-fill nav-tabs card-header-tabs"
                             data-bs-tabs="tabs">
@@ -264,13 +271,13 @@
                             </li>
                         </ul>
                     </div>
-                    <form class="card-body tab-content">
+                    <div class="card-body tab-content">
                         <div class="tab-pane active py-3 px-5"
                             id="museo">
                             <!-- Museo -->
-                            <div class="museo-subsection">
-                                <h4 class="card-title">El museo</h4>
-                                <p align="justify">
+                            <div class="museo-subsection pb-4">
+                                <h4 class="card-title mb-2 pb-4">El museo</h4>
+                                <p align="justify" class="card-text">
                                     El Museo exhibe una magnífica colección de
                                     más
                                     de 1,160 piezas que permite disfrutar, entre
@@ -299,7 +306,7 @@
                                     retornar al presente.
                                 </p>
 
-                                <p align="justify">
+                                <p align="justify" class="card-text">
                                     Las salas inician con el panorama actual de
                                     la
                                     cultura maya para luego adentrarse en el
@@ -309,9 +316,9 @@
                             </div>
 
                             <!-- Historia -->
-                            <div class="historia-subsection">
-                                <h4 class="card-title">Historia</h4>
-                                <p align="justify">
+                            <div class="historia-subsection my-2 py-2">
+                                <h4 class="card-title pb-4">Historia</h4>
+                                <p align="justify" class="card-text">
                                     Los contenidos del Museo están diseñados con
                                     la convicción de que por su naturaleza y sus
                                     vertientes interdisciplinarias, responderán
@@ -323,7 +330,7 @@
                                     y en consecuencia el desarrollo social,
                                     económico y la generación de empleos.
                                 </p>
-                                <p align="justify">
+                                <p align="justify" class="card-text">
                                     Los contenidos del Museo están diseñados con
                                     la convicción de que por su naturaleza y sus
                                     vertientes interdisciplinarias, responderán
@@ -336,7 +343,7 @@
                                     económico y la generación de empleos.
                                 </p>
 
-                                <p align="justify">
+                                <p align="justify" class="card-text">
                                     Es una propuesta que corresponde a su tiempo
                                     y
                                     genera, en su recorrido, un proceso de
@@ -347,7 +354,7 @@
                                     y líneas de internet.
                                 </p>
 
-                                <p align="justify">
+                                <p align="justify" class="card-text">
                                     El Gobierno del Estado de Yucatán, a través
                                     del Instituto Nacional de Antropología e
                                     Historia y el Instituto de Historia y Museos
@@ -359,13 +366,13 @@
                                     de turistas culturales que lo incorporen en
                                     sus recorridos.
                                 </p>
-                                <p align="justify">
+                                <p align="justify" class="card-text">
                                     Su marco conceptual se fundamenta en los
                                     valores de la identidad colectiva y la
                                     memoria histórica de Yucatán en justo y
                                     retador equilibrio con la posmodernidad.
                                 </p>
-                                <p align="justify">
+                                <p align="justify" class="card-text">
                                     El Gran Museo del Mundo Maya de Mérida tiene
                                     como objetivo posicionar a México y al
                                     Estado de Yucatán como Puerta de Entrada al
@@ -376,7 +383,7 @@
                                     como la Capital Cultural del Sureste de
                                     México.
                                 </p>
-                                <p align="justify">
+                                <p align="justify" class="card-text">
                                     Todo esto articulado con la infraestructura
                                     turística y las rutas de aguas mágicas,
                                     barrios y centros históricos, conventos,
@@ -389,10 +396,10 @@
                             </div>
 
                             <!-- Misión y visión -->
-                            <div class="row mision-vision-subsection">
-                                <div class="col-6">
+                            <div class="row mision-vision-subsection my-4 py-4">
+                                <div class="col-6 pb-4">
                                     <h6>Misión</h6>
-                                    <p align="justify">
+                                    <p align="justify" class="card-text">
                                         El Gran Museo del Mundo Maya de Mérida
                                         es una institución dedicada a difundir,
                                         promover y fortalecer la identidad y la
@@ -409,9 +416,9 @@
                                         del pueblo maya de ayer y de hoy.
                                     </p>
                                 </div>
-                                <div class="col-6">
+                                <div class="col-6 pb-4">
                                     <h6>Visión</h6>
-                                    <p align="justify">
+                                    <p align="justify" class="card-text">
                                         El Gran Museo del Mundo Maya de Mérida,
                                         al transmitir el reconocimiento étnico
                                         de los mayas como integrantes de una
@@ -442,119 +449,168 @@
 
                         </div>
                         <div class="tab-pane py-3 px-5" id="arquitectura">
-                            <h4 class="card-title">La arquitectura</h4>
+                            <div class="arquitectura-subsection">
+                                <h4 class="card-title pb-4">La arquitectura</h4>
+                                <p style="font-style: italic;">
+                                    Como herederos de la cultura maya, al
+                                    decidir
+                                    honrar ese legado milenario sembramos
+                                    también
+                                    nuestra ceiba, para desafiar el paso del
+                                    tiempo
+                                    y decidir a los cuatro confines del
+                                    universo;
+                                    "aquí se atesora lo que fuimos y se muestra
+                                    lo
+                                    que hoy somos".
+                                </p>
 
-                            <p style="font-style: italic;">
-                                Como herederos de la cultura maya, al decidir
-                                honrar ese legado milenario sembramos también
-                                nuestra ceiba, para desafiar el paso del tiempo
-                                y decidir a los cuatro confines del universo;
-                                "aquí se atesora lo que fuimos y se muestra lo
-                                que hoy somos".
-                            </p>
+                                <p align="justify" class="card-text">
+                                    El Gran Museo del Mundo Maya ocupa un predio
+                                    de
+                                    poco más de dos hectáreas a un costado del
+                                    Centro de Convenciones Siglo XXI, sobre la
+                                    avenida Prolongación Paseo Montejo, al norte
+                                    de
+                                    Mérida. Diseñado por los arquitectos
+                                    Josefina
+                                    Rivas Acevedo, Enrique Duarte Aznar, Ricardo
+                                    Combaluzier Medina y William Ramírez
+                                    Pizarro, el
+                                    recinto recibió el Partnerships Awards 2012
+                                    en
+                                    la sección “Proyectos Innovadores para la
+                                    preservación del patrimonio cultural y su
+                                    divulgación”.
+                                </p>
 
-                            <p align="justify">
-                                El Gran Museo del Mundo Maya ocupa un predio de
-                                poco más de dos hectáreas a un costado del
-                                Centro de Convenciones Siglo XXI, sobre la
-                                avenida Prolongación Paseo Montejo, al norte de
-                                Mérida. Diseñado por los arquitectos Josefina
-                                Rivas Acevedo, Enrique Duarte Aznar, Ricardo
-                                Combaluzier Medina y William Ramírez Pizarro, el
-                                recinto recibió el Partnerships Awards 2012 en
-                                la sección “Proyectos Innovadores para la
-                                preservación del patrimonio cultural y su
-                                divulgación”.
-                            </p>
+                                <p align="justify" class="card-text">
+                                    Quizá el diseño del inmueble fue lo que
+                                    sedujo a
+                                    quienes galardonaron este proyecto, basado
+                                    en el
+                                    universo que la cosmogonía maya estructuró
+                                    en
+                                    tres niveles: cielo, tierra e inframundo. En
+                                    el
+                                    centro de la tierra, los mayas imaginaron un
+                                    árbol sagrado, cuyas ramas sostenían el
+                                    cielo y
+                                    cuyas raíces penetraban en el inframundo.
+                                    Este
+                                    árbol, que unía a los tres niveles del
+                                    universo,
+                                    era la ceiba, o ya'axché, y en la mitología
+                                    maya
+                                    se asociaba con la fertilidad humana y la
+                                    estabilidad cósmica, por lo que el proyecto
+                                    arquitectónico del Gran Museo del Mundo Maya
+                                    de
+                                    Mérida —las salas de exhibición, patios y
+                                    terrazas, jardines, la plaza de acceso, el
+                                    umbral, etc.— configurado por el despacho 4A
+                                    Arquitectos (Grupo Arquidecture), integra un
+                                    corpus que evoca y rinde homenaje a aquella
+                                    gran
+                                    ceiba originaria del mundo maya.
+                                </p>
 
-                            <p align="justify">
-                                Quizá el diseño del inmueble fue lo que sedujo a
-                                quienes galardonaron este proyecto, basado en el
-                                universo que la cosmogonía maya estructuró en
-                                tres niveles: cielo, tierra e inframundo. En el
-                                centro de la tierra, los mayas imaginaron un
-                                árbol sagrado, cuyas ramas sostenían el cielo y
-                                cuyas raíces penetraban en el inframundo. Este
-                                árbol, que unía a los tres niveles del universo,
-                                era la ceiba, o ya'axché, y en la mitología maya
-                                se asociaba con la fertilidad humana y la
-                                estabilidad cósmica, por lo que el proyecto
-                                arquitectónico del Gran Museo del Mundo Maya de
-                                Mérida —las salas de exhibición, patios y
-                                terrazas, jardines, la plaza de acceso, el
-                                umbral, etc.— configurado por el despacho 4A
-                                Arquitectos (Grupo Arquidecture), integra un
-                                corpus que evoca y rinde homenaje a aquella gran
-                                ceiba originaria del mundo maya.
-                            </p>
+                                <p align="justify" class="card-text">
+                                    Mediante una impresionante estructura
+                                    metálica
+                                    que alude al ramaje de la ceiba, los
+                                    arquitectos
+                                    buscaron representar la unión entre pasado y
+                                    presente en un espacio físico construido
+                                    para
+                                    ser percibido como ilimitado, fusionando
+                                    modernas técnicas constructivas, tales como
+                                    la
+                                    cimbra deslizante —herramienta necesaria
+                                    para
+                                    formar una figura geométrica consolidada
+                                    mediante el deslizamiento continuo de una
+                                    cimbra
+                                    alrededor de la masa plástica del concreto—
+                                    con
+                                    las heredadas de la época prehispánica, como
+                                    el
+                                    uso de la tierra caliza o sahkab.
+                                </p>
 
-                            <p align="justify">
-                                Mediante una impresionante estructura metálica
-                                que alude al ramaje de la ceiba, los arquitectos
-                                buscaron representar la unión entre pasado y
-                                presente en un espacio físico construido para
-                                ser percibido como ilimitado, fusionando
-                                modernas técnicas constructivas, tales como la
-                                cimbra deslizante —herramienta necesaria para
-                                formar una figura geométrica consolidada
-                                mediante el deslizamiento continuo de una cimbra
-                                alrededor de la masa plástica del concreto— con
-                                las heredadas de la época prehispánica, como el
-                                uso de la tierra caliza o sahkab.
-                            </p>
+                                <p align="justify" class="card-text">
+                                    Es por ello que, siempre con la ceiba como
+                                    referencia, la bodega de colecciones y la de
+                                    tránsito —que resguarda exposiciones
+                                    temporales—
+                                    provistas de óptimas condiciones de
+                                    temperatura
+                                    y humedad para la conservación y manejo de
+                                    piezas, se distribuyen como gigantescas
+                                    raíces
+                                    bajo el museo, donde están también las áreas
+                                    de
+                                    investigación, catalogación, restauración y
+                                    curaduría. Los estacionamientos público e
+                                    interno también se encuentran en este
+                                    subterráneo. Continuando con la metáfora,
+                                    sobre
+                                    el “inframundo”, en el plano “terrenal”,
+                                    está el
+                                    primer nivel del museo, desplantado de la
+                                    calle
+                                    sobre una plataforma que alude a las
+                                    existentes
+                                    en las urbes mayas.
+                                </p>
 
-                            <p align="justify">
-                                Es por ello que, siempre con la ceiba como
-                                referencia, la bodega de colecciones y la de
-                                tránsito —que resguarda exposiciones temporales—
-                                provistas de óptimas condiciones de temperatura
-                                y humedad para la conservación y manejo de
-                                piezas, se distribuyen como gigantescas raíces
-                                bajo el museo, donde están también las áreas de
-                                investigación, catalogación, restauración y
-                                curaduría. Los estacionamientos público e
-                                interno también se encuentran en este
-                                subterráneo. Continuando con la metáfora, sobre
-                                el “inframundo”, en el plano “terrenal”, está el
-                                primer nivel del museo, desplantado de la calle
-                                sobre una plataforma que alude a las existentes
-                                en las urbes mayas.
-                            </p>
+                                <p align="justify" class="card-text">
+                                    En este primer nivel se ubican el vestíbulo,
+                                    las
+                                    salas de exposición permanente, la sala de
+                                    exhibiciones temporales, el área de atención
+                                    a
+                                    niños, la cafetería y la tienda. El diseño
+                                    prevé
+                                    espacios exteriores para enlazar las salas,
+                                    agilizar el flujo de visitantes y
+                                    proporcionarles pausas visuales y físicas
+                                    durante su recorrido.
+                                </p>
 
-                            <p align="justify">
-                                En este primer nivel se ubican el vestíbulo, las
-                                salas de exposición permanente, la sala de
-                                exhibiciones temporales, el área de atención a
-                                niños, la cafetería y la tienda. El diseño prevé
-                                espacios exteriores para enlazar las salas,
-                                agilizar el flujo de visitantes y
-                                proporcionarles pausas visuales y físicas
-                                durante su recorrido.
-                            </p>
+                                <p align="justify" class="card-text">
+                                    En el segundo nivel del museo, el
+                                    “supra-mundo”,
+                                    se encuentran el salón de usos múltiples y
+                                    la
+                                    SalaMayamax , provista de espacios para
+                                    personas
+                                    con discapacidad, y cuyo aforo es de 357
+                                    espectadores.
+                                </p>
 
-                            <p align="justify">
-                                En el segundo nivel del museo, el “supra-mundo”,
-                                se encuentran el salón de usos múltiples y la
-                                SalaMayamax , provista de espacios para personas
-                                con discapacidad, y cuyo aforo es de 357
-                                espectadores.
-                            </p>
-
-                            <p align="justify">
-                                El proyecto arquitectónico también buscó
-                                incorporar los espacios abiertos, por lo que los
-                                fines de semana el usuario podrá apreciar en la
-                                plaza exterior del museo un espectáculo de luz y
-                                sonido "YUCAMA'YA'AB" que habrá de sumergirlo en
-                                el mundo maya, concebido por el artista Xavier
-                                de Richemont y realizado por técnicos mexicanos,
-                                canadienses y estadounidenses.
-                            </p>
+                                <p align="justify" class="card-text">
+                                    El proyecto arquitectónico también buscó
+                                    incorporar los espacios abiertos, por lo que
+                                    los
+                                    fines de semana el usuario podrá apreciar en
+                                    la
+                                    plaza exterior del museo un espectáculo de
+                                    luz y
+                                    sonido "YUCAMA'YA'AB" que habrá de
+                                    sumergirlo en
+                                    el mundo maya, concebido por el artista
+                                    Xavier
+                                    de Richemont y realizado por técnicos
+                                    mexicanos,
+                                    canadienses y estadounidenses.
+                                </p>
+                            </div>
                         </div>
                         <div class="tab-pane py-3 px-5" id="museografia">
-                            <h4 class="card-title">La museografía</h4>
+                            <h4 class="card-title pb-4">La museografía</h4>
 
-                            <p align="justify">
+                            <p align="justify" class="card-text">
                                 La conceptualización del museo -el qué decir- y
                                 su materialización —el cómo decirlo— o dicho en
                                 otras palabras, el guión museológico y la
@@ -576,7 +632,7 @@
                                 guión que subyace en las salas de exhibición.
                             </p>
 
-                            <p align="justify">
+                            <p align="justify" class="card-text">
                                 Estos datos y algunas interrogantes surgidas
                                 como resultado de los estudios, animaron las
                                 ricas y muchas veces polémicas discusiones entre
@@ -592,7 +648,7 @@
                                 de serlo.
                             </p>
 
-                            <p align="justify">
+                            <p align="justify" class="card-text">
                                 El equipo de asesores académicos estuvo
                                 integrado por destacados académicos —en su
                                 mayoría antropólogos físicos y sociales,
@@ -609,7 +665,7 @@
                                 de las más serias y recientes investigaciones.
                             </p>
 
-                            <p align="justify">
+                            <p align="justify" class="card-text">
                                 Ciertos temas o ideas centrales se enfatizaron
                                 mediante ejes discursivos transversales como
                                 Continuidad y cambio, Vínculo con la naturaleza,
@@ -618,7 +674,7 @@
                                 comunicación que fueron empleados.
                             </p>
 
-                            <p align="justify">
+                            <p align="justify" class="card-text">
                                 Como podrá apreciar el visitante durante el
                                 recorrido por el GMMMM - es decir su
                                 musealización -puesta en valor del patrimonio-
@@ -637,20 +693,332 @@
                             </p>
 
                         </div>
-                        <div class="tab-pane" id="reconocimientos">
-                            <p class="card-text">Change Static Network
-                                settings.</p>
+                        <div class="tab-pane py-3 px-5" id="reconocimientos">
+                            <div class="row align-items-center my-4 py-4">
+                                <div class="col">
+                                    <img
+                                        src="../assets/img/reconocimientos/SEEER.jpg"
+                                        alt="Logo SEER" class="img-fluid h-50
+                                        w-50">
+                                </div>
+                                <div class="col">
+                                    <h6>Premio SEEER</h6>
+                                    <p align="justify" class="card-text">
+                                        Sustentabilidad y Eficiencia Energética
+                                        en Edificaciones y Recursos.
+                                        Premio en la Categoría Edificación
+                                        Sustentable. México, 2015.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="row align-items-center my-4 py-4">
+                                <div class="col">
+                                    <img
+                                        src="../assets/img/reconocimientos/leading.jpg"
+                                        alt="Logo Leading" class="img-fluid h-25
+                                        w-25">
+                                </div>
+                                <div class="col">
+                                    <h6>Premio al Mejor Destino Cultural
+                                        Emergente</h6>
+                                    <p align="justify" class="card-text">
+                                        Leading Cultural Destinations Awards.
+                                        Londres, Inglaterra, 2015.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="row align-items-center my-4 py-4">
+                                <div class="col">
+                                    <img
+                                        src="../assets/img/reconocimientos/Bienal.jpg"
+                                        alt="Logo SEER" class="img-fluid h-25
+                                        w-25">
+                                </div>
+                                <div class="col">
+                                    <h6>Gran Premio Bienal Internacional</h6>
+                                    <p align="justify" class="card-text">
+                                        XII Bienal Internacional de Arquitectura
+                                        de Costa Rica, 2014.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="row align-items-center my-4 py-4">
+                                <div class="col">
+                                    <img
+                                        src="../assets/img/reconocimientos/Bienal.jpg"
+                                        alt="Logo Bienal" class="img-fluid h-25
+                                        w-25">
+                                </div>
+                                <div class="col">
+                                    <h6>Premio Comex del Color</h6>
+                                    <p align="justify" class="card-text">
+                                        XII Bienal Internacional de Arquitectura
+                                        de Costa Rica, 2014.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="row align-items-center my-4 py-4">
+                                <div class="col">
+                                    <img
+                                        src="../assets/img/reconocimientos/Bienal.jpg"
+                                        alt="Logo Bienal" class="img-fluid h-25
+                                        w-25">
+                                </div>
+                                <div class="col">
+                                    <h6>Premio a la Arquitectura y el Diseño
+                                        Humanista</h6>
+                                    <p align="justify" class="card-text">
+                                        Revista Domus México, América Central y
+                                        el Caribe. <br>
+                                        XII Bienal Internacional de Arquitectura
+                                        de Costa Rica, 2014.
+                                    </p>
+
+                                </div>
+                            </div>
+
+                            <div class="row align-items-center my-4 py-4">
+                                <div class="col">
+                                    <img
+                                        src="../assets/img/reconocimientos/FCARM.jpg"
+                                        alt="FCARM" class="img-fluid">
+                                </div>
+                                <div class="col">
+                                    <h6>Primer lugar en la categoría Cultura</h6>
+                                    <p align="justify" class="card-text">
+                                        I Bienal de Arquitectura Regional.
+                                        México, 2014.
+                                    </p>
+
+                                </div>
+                            </div>
+
+                            <div class="row align-items-center my-4 py-4">
+                                <div class="col">
+                                    <img
+                                        src="../assets/img/reconocimientos/CEMEX.jpg"
+                                        alt="FCARM" class="img-fluid">
+                                </div>
+                                <div class="col">
+                                    <h6>Primer Lugar Internacional
+                                        Congruencia en Accesibilidad</h6>
+                                    <p align="justify" class="card-text">
+                                        XXII Premio Obras Cemex. México, 2013.
+                                    </p>
+
+                                </div>
+                            </div>
+
+                            <div class="row align-items-center my-4 py-4">
+                                <div class="row align-items-center">
+                                    <div class="col">
+                                        <img
+                                            src="../assets/img/reconocimientos/CIDI.jpg"
+                                            alt="CIDI" class="img-fluid h-50
+                                            w-50">
+                                    </div>
+                                    <div class="col">
+                                        <h6>Premio Iberoamericano CIDI. Obra
+                                            Emblemática del Año 2013 en la
+                                            categoría Cultura</h6>
+                                        <p align="justify" class="card-text">
+                                            Consejo Iberoamericano de
+                                            Diseñadores de Interiores. México,
+                                            2013.
+                                        </p>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row align-items-center my-4 py-4">
+                                <div class="col">
+                                    <img
+                                        src="../assets/img/reconocimientos/FCARM.jpg"
+                                        alt="FCARM" class="img-fluid">
+                                </div>
+                                <div class="col">
+                                    <h6>Mención de Honor en la Categoría
+                                        Cultura.</h6>
+                                    <p align="justify" class="card-text">
+                                        X Bienal de Arquitectura Yucateca.
+                                        México, 2013.
+                                    </p>
+
+                                </div>
+                            </div>
+
+                            <div class="row align-items-center my-4 py-4">
+                                <div class="col">
+                                    <img
+                                        src="../assets/img/reconocimientos/world.jpg"
+                                        alt="World" class="img-fluid w-25 h-25">
+                                </div>
+                                <div class="col">
+                                    <h6>Social Deal of the Year</h6>
+                                    <p align="justify" class="card-text">
+                                        Year Awards. World Finance Magazine.
+                                        USA, 2013.
+                                    </p>
+
+                                </div>
+                            </div>
+
+                            <div class="row align-items-center my-4 py-4">
+                                <div class="col">
+                                    <img
+                                        src="../assets/img/reconocimientos/premios_inah.jpg"
+                                        alt="World" class="img-fluid w-25 h-25">
+                                </div>
+                                <div class="col">
+                                    <h6>Premio Miguel Covarrubias a la
+                                        Exposición Temporal “Chicxulub: el fin
+                                        de los dinosaurios”</h6>
+                                    <p align="justify" class="card-text">
+                                        Categoría Trabajo de Diseño e
+                                        Instalación de Exposición. <br>
+                                        Instituto Nacional de Antropología e
+                                        Historia. México, 2013.
+                                    </p>
+
+                                </div>
+                            </div>
+
+                            <div class="row align-items-center my-4 py-4">
+                                <div class="col">
+                                    <img
+                                        src="../assets/img/reconocimientos/DOMUS.jpg"
+                                        alt="World" class="img-fluid w-25 h-25">
+                                </div>
+                                <div class="col">
+                                    <h6>Premio a la arquitectura y el diseño
+                                        humanista del Gran Museo del Mundo Maya
+                                        de Mérida</h6>
+                                    <p align="justify" class="card-text">
+                                        Revista Domus. México, América Central y
+                                        el Caribe. México 2013.
+                                    </p>
+
+                                </div>
+                            </div>
+
+                            <div class="row align-items-center my-4 py-4">
+                                <div class="col">
+                                    <img
+                                        src="../assets/img/reconocimientos/Revista_ad.jpg"
+                                        alt="World" class="img-fluid w-25 h-25">
+                                </div>
+                                <div class="col">
+                                    <h6>Finalista en la Categoría Arquitectura
+                                        Pública</h6>
+                                    <p align="justify" class="card-text">
+                                        Iconos del Diseño. Revista AD México.
+                                        México, 2013.
+                                    </p>
+
+                                </div>
+                            </div>
+
+                            <div class="row align-items-center my-4 py-4">
+                                <div class="col">
+                                    <img
+                                        src="../assets/img/reconocimientos/Revista_obras.jpg"
+                                        alt="World" class="img-fluid w-25 h-25">
+                                </div>
+                                <div class="col">
+                                    <h6>Finalista en la Categoría Edificación</h6>
+                                    <p align="justify" class="card-text">
+                                        Obra del Año. Revista Obras. México,
+                                        2013.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="row align-items-center my-4 py-4">
+                                <div class="col">
+                                    <img
+                                        src="../assets/img/reconocimientos/partnership.jpg"
+                                        alt="World" class="img-fluid w-25 h-25">
+                                </div>
+                                <div class="col">
+                                    <h6>Best Pathfinder Project. Partnerships
+                                        Awards</h6>
+                                    <p align="justify" class="card-text">
+                                        Partnerships Bulletin. Londres,
+                                        Inglaterra, 2012.
+                                    </p>
+                                </div>
+                            </div>
                         </div>
-                        <div class="tab-pane" id="libro-y-catalogo">
-                            <p class="card-text">Change Static Network
-                                settings.</p>
+                        <div class="tab-pane py-3 px-5"
+                            id="libro-y-catalogo">
+                            <div class="row my-4 py-4">
+                                <div class="col">
+                                    <h5>Gran Museo del Mundo Maya
+                                        Catálogo</h5>
+                                    <p align="justify" class="card-text">
+                                        Invitamos al lector a que recorra estas
+                                        páginas como si de una visita al espacio
+                                        físico del museo se tratara. A transitar
+                                        por los diversos capítulos como se
+                                        recorren las salas de exposición; que
+                                        contemple las imágenes con los ojos con
+                                        los que se aprecian las esculturas, los
+                                        bordados y las piezas que conforman el
+                                        acervo y las colecciones del museo.
+                                    </p>
+                                </div>
+                                <div class="col">
+                                    <a
+                                        href="https://issuu.com/granmuseomaya/docs/cat__logo">
+                                        <img
+                                            src="../assets/img/catalogo.jpg"
+                                            alt="World" class="img-fluid">
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="row my-4 py-4">
+                                <div class="col">
+                                    <h5>Gran Museo del Mundo Maya
+                                        Libro</h5>
+                                    <p align="justify" class="card-text">
+                                        Este extraordinario ejemplar contiene el
+                                        registro y la memoria arquitectónica,
+                                        museográfica, cultural y artística de El
+                                        Gran Museo del Mundo Maya de Mérida.
+                                    </p>
+                                </div>
+                                <div class="col">
+                                    <a
+                                        href="https://issuu.com/granmuseomaya/docs/libro">
+                                        <img
+                                            src="../assets/img/libro.jpg"
+                                            alt="World" class="img-fluid">
+                                    </a>
+                                </div>
+                            </div>
                         </div>
-                        <div class="tab-pane" id="publicaciones">
-                            <p class=" card-text">Change Static Network
-                                settings.</p>
+                        <div class="tab-pane py-3 px-5" id="publicaciones">
+                            <div class="text-center">
+                                <h4 class="pb-4">Revista</h4>
+                                <img src="../assets/img/Revista.jpg"
+                                    alt="Revista" class="img-fluid">
+                                <div>
+                                    <a class="btn btn-descargar text-white m-4"
+                                        href="https://www.granmuseodelmundomaya.com.mx/assets/files/museo/folletos/Revista_Museos_01.pdf"
+                                        target="_blank" role="button">Descargar</a>
+                                </div>
+
+
+                            </div>
                         </div>
 
-                    </form>
+                    </div>
                 </div>
             </div>
 
@@ -686,9 +1054,11 @@
             </footer>
         </div>
 
-        <script
-            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
-            crossorigin="anonymous"></script>
+        <script>
+            // https://getbootstrap.com/docs/5.1/components/navs-tabs/#via-javascript
+            const triggerEl = document.querySelector(`.nav-tabs li a[href="${window.location.hash}"]`);
+            const tab = new bootstrap.Tab(triggerEl);
+            tab.show() // Seleccionar pestaña por nombre   
+        </script>
     </body>
 </html>

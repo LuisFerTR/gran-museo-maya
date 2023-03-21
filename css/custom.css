@@ -20,6 +20,10 @@
     background-color: #ed302f!important; 
 }
 
+.btn.btn-descargar {
+    background-color: #07A4AF!important; 
+}
+
 .title {
     font-weight: bold;
 }
