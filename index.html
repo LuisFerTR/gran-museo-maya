@@ -273,7 +273,7 @@
                     <div class="col-sm">
                         <div class="card p-4 h-100">
                             <div class="card-body">
-                                <h2 class="card-title text-card-title">Próximo
+                                <h2 class="card-title text-card-title pb-4">Próximo
                                     taller</h2>
                                 <img src="./assets/img/prox_evento_3-med.jpg"
                                     class="img-fluid" alt="Próximo
@@ -285,7 +285,8 @@
                         <div class="card p-4 h-100">
 
                             <div class="card-body">
-                                <h2 class="card-title text-card-title">La pieza
+                                <h2 class="card-title text-card-title pb-4">La
+                                    pieza
                                     del mes</h2>
                                 <h4>"El ritual"</h4>
                                 <img src="./assets/img/pieza_del_mes.jpg"
@@ -314,7 +315,7 @@
                     <div class="col-sm">
                         <div class="card p-4 h-100">
                             <div class="card-body">
-                                <h2 class="card-title text-card-title">Noticias</h2>
+                                <h2 class="card-title text-card-title pb-4">Noticias</h2>
                                 <div id="carouselAutoplayingNoticias"
                                     class="carousel slide"
                                     data-bs-ride="carousel">
@@ -365,15 +366,33 @@
                     <div class="col-sm">
                         <div class="card p-4 h-100">
 
-                            <div class="card-body">
-                                <h2 class="card-title text-card-title">Calendario</h2>
-                                <img src="..." class="img-fluid" alt="Calendario
-                                    del museo">
+                            <div class="card-body text-center">
+                                <h2 class="card-title text-card-title pb-4">Calendario</h2>
+                                <div class="container-fluid calendar-container">
+                                    <header class="calendar-header">
+                                        <p class="calendar-current-date"></p>
+                                    </header>
+
+                                    <div class="calendar-body">
+                                        <ul class="calendar-weekdays">
+                                            <li>Dom</li>
+                                            <li>Lun</li>
+                                            <li>Mar</li>
+                                            <li>Mier</li>
+                                            <li>Jue</li>
+                                            <li>Vie</li>
+                                            <li>Sáb</li>
+                                        </ul>
+                                        <ul class="calendar-dates"></ul>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+
+            <script src="./js/calendario.js"></script>
 
             <footer class="container-fluid">
                 <div class="row align-items-center g-0">
